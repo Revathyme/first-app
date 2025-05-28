@@ -1,10 +1,10 @@
 main {
   width: 90%;
-  max-width: 50rem;
+  max-width: 60rem;
   margin: 2.5rem auto;
   display: grid;
   grid-auto-flow: row;
-  gap: 2rem;
+  gap: 2rem !important;
 }
 
 #users {
@@ -12,9 +12,11 @@ main {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 0.5rem;
+  gap: 2rem !important;
   overflow: auto;
 }
+
+
 
 #fallback {
   font-weight: bold;
